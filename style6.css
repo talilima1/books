@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'MuseoModerno', cursive;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+
+    background-color: #1a1a1a;
+
+}
+
+
+header{
+
+    width: 100%;
+    height: 70px;
+
+    align-items: center;
+
+    box-shadow: 0px 5px 20px #721844;
+
+    padding:10px ;
+
+    background-color: #4E0328;
+
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+.menu{
+list-style: none;
+
+display: flex;
+
+}
+
+.menu li a{
+  color: #D797B6;
+
+  padding: 10px 20px 10px 20px;
+
+  border-radius: 20px;
+
+  display: block;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.menu li a:hover{
+    color: #D797B6;
+  
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: #6d515e;
+  }
+
+.logo{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 20px;
+
+    background-color: #ccc;
+}
+
+img{
+    width: 100%;
+
+    border-radius: 20px;
+}
+
+h1{
+    color: #D797B6;
+    text-align: center;
+
+    margin-top: 25px;
+
+    margin-bottom: 15px;
+}
+
+.container{
+    display: flex;
+
+    margin-bottom: 20px;
+
+}
+
+.container2{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+
+    
+}
+
+
+
+.talita{
+    max-width: 300px;
+    min-width: 250px;
+
+    width: 30%;
+    height: 45%;
+     
+    background-color: #D797B6;
+    
+    border-radius: 40px;
+    
+    margin-left: 50px;
+
+    margin-top: 15px;
+}
+
+.texto{
+    max-width: 500px;
+
+    max-height: 200px;
+
+    background-color: #D797B6;
+
+    border-radius: 20px;
+
+    margin-left: 100px;
+
+    margin-top: 100px;
+    margin-right: 200px;
+
+}
+
+.autora{
+    max-width: 300px;
+    min-width: 250px;
+
+    width: 30%;
+    height: 45%;
+     
+    
+    border-radius: 40px;
+    margin-top: 80px;
+     
+}
+
+.linha{
+    height: 4px;
+    width: 80%;
+
+    background-color: #6d515e;
+
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.sobre{
+
+    background-color: #4E0328;
+
+    height: 20px;
+    width: 300px;
+
+    margin-top: 50px;
+
+    border-radius: 40px;
+
+    margin-left: 550px;
+}
+
+.sobre li{
+    color:#D797B6;
+
+}
+
+li{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.info{
+    max-width: 500px;
+
+    max-height: 300px;
+
+    background-color: #D797B6;
+
+    border-radius: 20px;
+
+    margin-left: 100px;
+
+    margin-top: 140px;
+    margin-right: 200px;
+
+    margin-bottom: 100px;
+}
+
+
+
